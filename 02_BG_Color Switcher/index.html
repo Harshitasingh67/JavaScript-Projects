@@ -5,22 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background color switcher</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lumanosimo&display=swap" rel="stylesheet">
 
 </head>
 
-<body>
-    <main>
-        <h1>Color Scheme Switcher</h1>
-        <span class="button" id="red"></span>
-        <span class="button" id="green"></span>
-        <span class="button" id="yellow"></span>
-        <span class="button" id="blue"></span>
-        <span class="button" id="orange"></span>
-        <span class="button" id="purple"></span>
+<body class="bg-gradient-to-r from-orange-300 to-blue-300">
+    <div id="container" class="h-screen w-screen flex justify-center items-center">
+        <main class="text-center">
+            <h1 class=" custom_font text-2xl  ">Background color switcher</h1>
+            <section class="flex justify-center items-center gap-5 pb-5">
+                <div class="button border-2 border-white w-32 h-32 shrink-0 shadow-lg shadow-white-500/50 bg-red-600"
+                    id="red">
+                </div>
+                <div class="button border-2 border-white w-32 h-32 shrink-0 bg-green-600" id="green"></div>
+                <div class="button border-2 border-white w-32 h-32 shrink-0 bg-yellow-600" id="yellow"></div>
+            </section>
 
-        <p>Try clicking on one of the colors above to change the background color if this page!</p>
+            <section class="flex justify-center items-center gap-5 pb-5">
+                <div class="button border-2 border-white w-32 h-32 shrink-0 bg-blue-600" id="blue"></div>
+                <div class="button border-2 borwhite w-32 h-32 shrink-0 bg-pink-600" id="pink"></div>
+            </section>
 
-    </main>
+            <section class="flex items-center justify-center pb-5">
+                <div class="button border-2 border-white w-32 h-32 shrink-0 bg-purple-600" id="purple"></div>
+            </section>
+
+
+            <p class="w-80 m-auto">Try clicking on one of the colors above to change the background color if this page!
+            </p>
+        </main>
+    </div>
 </body>
+<script src="./script.js">
+
+</script>
 
 </html>

@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom_font{
+    font-family: 'Lobster', cursive;
+        font-family: 'Lumanosimo', cursive;
+        padding: 20px 0px;
+}
