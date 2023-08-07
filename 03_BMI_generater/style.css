@@ -1,0 +1,47 @@
+/* reset the css code */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    margin-top: 90px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 30%;
+    text-align: center;
+    background-color: rgb(171, 209, 196);
+     box-shadow: 0 5px 6px black;
+     padding-bottom: 20px
+}
+h1{
+    color:black;
+    font-family: 'Lobster', cursive;
+        font-family: 'Lumanosimo', cursive;
+        padding: 20px 0px;
+}
+
+form p{
+padding-bottom: 10px;
+}
+
+form button{
+    padding:5px 20px;
+     border: 1px solid black;
+    border-radius: 4px;
+    margin:15px 0px;
+    box-shadow: 0 5px 6px black;
+}
+
+form h4{
+    padding:10px 0px;
+    font-size: 25px;
+}
