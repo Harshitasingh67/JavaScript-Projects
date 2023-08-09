@@ -1,0 +1,45 @@
+/* reset the css */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height:100vh;
+background-color: rgb(213, 240, 165);
+}
+
+#container{
+    border:1px solid black;
+    padding:20px 20px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color:white;
+}
+
+#container h1{
+    margin-bottom:15px;
+}
+
+#container p{
+    margin-bottom:10px
+}
+
+form label{
+    font-size:30px;
+    font-style: bold;
+    margin-bottom:13px
+}
+
+form input{
+        margin-bottom:13px
+}
+
+form input:last-child{
+    padding:5px 5px
+}
