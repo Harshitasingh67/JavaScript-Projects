@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Counter App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="card">
-        <h1>Counter App</h1>
-        <div class="grid-container">
-            <button class="grid-item">-</button>
-            <div class="grid-item">0</div>
-            <button class="grid-item">+</button>
-            <input type="number" class="grid-item" placeholder="0">
-            <button class="grid-item_I">Increment by</button>
+      <h1>Counter App</h1>
+      <div class="grid-container">
+        <button class="grid-item subtract_button">-</button>
 
-            <input type="number" class="grid-item" placeholder="0">
-            <button class="grid-item_I">Decrement by</button>
-            <button class="grid-item_reset">Reset</button>
+        <div class="grid-item output">0</div>
+        <button class="grid-item addition_button">+</button>
 
-        </div>
+        <input
+          type="number"
+          class="grid-item increment_input"
+          placeholder="0"
+        />
 
+        <button class="grid-item increment_button">Increment by</button>
 
+        <input
+          type="number"
+          class="grid-item decrement_input"
+          placeholder="0"
+        />
+
+        <button class="grid-item decrement_button">Decrement by</button>
+
+        <button class="grid-item reset_button">Reset</button>
+      </div>
     </div>
-
-</body>
-<script src="./script.js"></script>
-
+  </body>
+  <script src="./script.js"></script>
 </html>
