@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#output{
+    background-color: #1c1c1c;
+    color:lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center
+}
+
+.table{
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.table th,td{
+    border: 1px solid lightgreen;
+        border-style: double;
+    padding:8px;
+    
+}
